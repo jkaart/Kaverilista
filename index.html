@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Kaverilista</title>
+</head>
+
+<body>
+    <div class="valikko">
+        <a href='#' onclick=versionVaihto(1)>Versio 1</a> <a href='#' onclick="versionVaihto(2)">Versio 2</a><br>
+    </div>
+    <div class="sisalto">
+        <h1>Kaverilista</h1>
+        <p id="alku">Valitse haluamasi versio valikosta</p>
+
+        <div id="versio1">
+            <p>Ohjelma kysyy kymmenen nimeä ja tulostaa ne listaan</p>
+            <button id="btnAloita">Aloita</button>
+        </div>
+        <div id="versio2">
+            <form>
+                <label id="labelNimi" for="inputNimi">Syötä nimi:</label>
+                <input id="inputNimi" type="text">
+                <input id="btnTyhjenna" type="reset" value="X">
+                <input id="btnLisaa" type="button" value="Lisää kaveri">
+                <input id="btnPoista" type="button" value="Poista kaveri">
+                <input id="btnJarjesta" type="button" value="Järjestä kaverit">
+            </form>
+        </div>
+        <div id="nimet"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

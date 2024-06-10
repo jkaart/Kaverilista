@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) {
+    .sisalto {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sisalto {
+        width: 35%;
+        margin: 10px auto;
+        padding: 0 10vw;
+    }
+}
+
+.valikko {
+    padding-left: 20px;
+    align-items: center;
+    height: 30px;
+    border-bottom: 1px black solid;
+    background-color: #acacac;
+}
+
+#alku {
+    display: block;
+}
+
+.sisalto {
+    background-color: whitesmoke;
+    border: 1px gray solid;
+    border-radius: 3px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e7e9eb;
+}
+
+#versio1 {
+    display: none;
+}
+
+#versio2 {
+    display: none;
+}
+
+#btnTyhjenna {
+    text-align: center;
+    width: 21px;
+    height: 21px;
+    margin-left: -0.3rem;
+    margin-top: 4px;
+}
+
+#labelNimi {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
