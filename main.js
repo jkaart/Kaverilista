@@ -3,6 +3,11 @@ let nimet = [];
 const nimienMaara = 10;
 let listaTyyppi = "ol";
 
+const btnAloita = document.getElementById("btnAloita");
+const btnLisaa = document.getElementById("btnLisaa");
+const btnPoista = document.getElementById("btnPoista");
+const btnJarjesta = document.getElementById("btnJarjesta");
+
 btnAloita.addEventListener("click", kysyNimi);
 btnLisaa.addEventListener("click", lisaaNimi);
 btnPoista.addEventListener("click", poistaNimi);
